@@ -33,7 +33,7 @@
 
 using System.Collections.Generic;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     internal struct ScopeContextPropertyEnumerator<TValue> : IEnumerator<KeyValuePair<string, object>>
     {

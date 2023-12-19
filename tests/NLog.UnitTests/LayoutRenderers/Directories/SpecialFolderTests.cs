@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
 #if !NETSTANDARD1_5
     using System;

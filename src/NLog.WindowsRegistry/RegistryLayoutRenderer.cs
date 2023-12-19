@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
     using Microsoft.Win32;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// A value from the Registry.

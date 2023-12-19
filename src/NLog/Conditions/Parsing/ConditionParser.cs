@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Conditions
+namespace pyRevitLabs.NLog.Conditions
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Condition parser. Turns a string representation of condition expression

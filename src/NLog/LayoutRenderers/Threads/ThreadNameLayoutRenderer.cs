@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Text;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The name of the current thread.

@@ -33,10 +33,10 @@
 
 using System;
 using System.Linq;
-using NLog.MessageTemplates;
+using pyRevitLabs.NLog.MessageTemplates;
 using Xunit;
 
-namespace NLog.UnitTests.MessageTemplates
+namespace pyRevitLabs.NLog.UnitTests.MessageTemplates
 {
     public class MessageTemplateParameterTests
     {

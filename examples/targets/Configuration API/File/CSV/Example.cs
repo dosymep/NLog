@@ -1,8 +1,8 @@
 using System;
 
-using NLog;
-using NLog.Targets;
-using NLog.Layouts;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Layouts;
 
 class Example
 {

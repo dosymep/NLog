@@ -32,7 +32,7 @@
 // 
 
 
-namespace NLog.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.Internal.NetworkSenders
 {
     using System.Net.Sockets;
 

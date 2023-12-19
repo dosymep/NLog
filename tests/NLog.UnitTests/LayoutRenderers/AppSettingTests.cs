@@ -33,13 +33,13 @@
 
 #if !NETSTANDARD
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System.Collections.Generic;
     using System.Collections.Specialized;
     using System.Configuration;
-    using NLog.Internal;
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.LayoutRenderers;
     using Xunit;
 
     public class AppSettingTests : NLogTestBase

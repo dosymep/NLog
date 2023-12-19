@@ -35,15 +35,15 @@
 
 #define DISABLE_FILE_INTERNAL_LOGGING
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Diagnostics;
     using System.IO;
     using System.Threading;
-    using NLog.Config;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
     using Xunit;
     using System.Collections.Generic;
     using System.Linq;

@@ -37,12 +37,12 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using NLog.Config;
-using NLog.Internal;
-using NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     /// <summary>
     /// Base class for the <see cref="DefaultJsonSerializer"/> (<see cref="IJsonConverter"/> and <see cref="IJsonSerializer"/> interfaces)

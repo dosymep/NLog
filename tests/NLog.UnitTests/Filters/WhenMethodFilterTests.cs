@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Filters
+namespace pyRevitLabs.NLog.UnitTests.Filters
 {
     using System.Linq;
-    using NLog.Config;
-    using NLog.Filters;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
     using Xunit;
 
     public class WhenMethodFilterTests : NLogTestBase

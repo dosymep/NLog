@@ -32,11 +32,11 @@
 // 
 
 using System;
-using NLog.Internal;
-using NLog.LayoutRenderers;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.LayoutRenderers;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class DbNullLayoutRendererTests
     {

@@ -33,9 +33,9 @@
 
 using System;
 using JetBrains.Annotations;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Failed to resolve the interface of service type

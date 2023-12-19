@@ -32,11 +32,11 @@
 // 
 
 using System;
-using NLog.LayoutRenderers;
-using NLog.Config;
+using pyRevitLabs.NLog.LayoutRenderers;
+using pyRevitLabs.NLog.Config;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class FuncLayoutRendererTests : NLogTestBase
     {

@@ -33,9 +33,9 @@
 
 using System.Text;
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Test via <see cref="IJsonConverter"/> path

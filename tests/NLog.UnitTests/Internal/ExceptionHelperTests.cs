@@ -35,11 +35,11 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
-using NLog.Common;
-using NLog.Internal;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Internal;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class ExceptionHelperTests : NLogTestBase
     {

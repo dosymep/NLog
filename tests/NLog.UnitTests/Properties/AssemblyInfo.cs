@@ -44,6 +44,6 @@ public class NLogThrowExceptionsDefault : XunitTestFramework
     public NLogThrowExceptionsDefault(IMessageSink messageSink)
         :base(messageSink)
     {
-        NLog.LogManager.ThrowExceptions = true; // Ensure exceptions are thrown by default during unit-testing
+        pyRevitLabs.NLog.LogManager.ThrowExceptions = true; // Ensure exceptions are thrown by default during unit-testing
     }
 }

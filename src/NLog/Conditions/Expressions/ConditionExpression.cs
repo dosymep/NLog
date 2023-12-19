@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Conditions
+namespace pyRevitLabs.NLog.Conditions
 {
     using System;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Base class for representing nodes in condition expression trees.

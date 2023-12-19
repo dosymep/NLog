@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.LayoutRenderers;
+using pyRevitLabs.NLog.LayoutRenderers;
 using System.IO;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class DirectorySeparatorLayoutRendererTests
     {

@@ -47,7 +47,7 @@ namespace System.Runtime.CompilerServices
 }
 #endif
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Runtime.CompilerServices;

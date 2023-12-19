@@ -1,8 +1,8 @@
 using System;
 using System.Web;
 
-using NLog;
-using NLog.Targets;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
 
 namespace SomeWebApplication
 {

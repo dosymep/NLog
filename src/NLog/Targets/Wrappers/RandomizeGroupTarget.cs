@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Sends log messages to a randomly selected target.

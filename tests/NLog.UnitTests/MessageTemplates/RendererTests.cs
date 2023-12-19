@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.MessageTemplates
+namespace pyRevitLabs.NLog.UnitTests.MessageTemplates
 {
     using System;
     using System.Globalization;

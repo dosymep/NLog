@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
-    using NLog.Common;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Dynamic filtering with a minlevel and maxlevel range

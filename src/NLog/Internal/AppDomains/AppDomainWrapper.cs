@@ -33,12 +33,12 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.Internal.Fakeables
+namespace pyRevitLabs.NLog.Internal.Fakeables
 {
     using System;
     using System.Collections.Generic;
     using System.Reflection;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Adapter for <see cref="AppDomain"/> to <see cref="IAppDomain"/>

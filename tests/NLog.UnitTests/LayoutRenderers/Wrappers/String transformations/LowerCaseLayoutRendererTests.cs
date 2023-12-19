@@ -32,9 +32,9 @@
 // 
 
 using Xunit;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Layouts;
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
     public class LowerCaseLayoutRendererTests : NLogTestBase
     {

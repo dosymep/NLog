@@ -31,16 +31,16 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.ComponentModel;
     using System.Reflection;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
-    using NLog.LayoutRenderers;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Targets;
     using System.Diagnostics.CodeAnalysis;
 
     /// <summary>

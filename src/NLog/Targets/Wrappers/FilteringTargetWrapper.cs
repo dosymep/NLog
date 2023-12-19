@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
     using System.Collections.Generic;
-    using NLog.Common;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.Filters;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Filters log entries based on a condition.

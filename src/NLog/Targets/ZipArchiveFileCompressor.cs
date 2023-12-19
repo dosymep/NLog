@@ -33,7 +33,7 @@
 
 #if !NET35 && !NET40
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System.IO;
     using System.IO.Compression;

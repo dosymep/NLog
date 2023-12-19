@@ -33,14 +33,14 @@
 
 #define DEBUG
 
-namespace NLog.UnitTests.Common
+namespace pyRevitLabs.NLog.UnitTests.Common
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
-    using NLog.Common;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     public class InternalLoggerTests_Trace : NLogTestBase

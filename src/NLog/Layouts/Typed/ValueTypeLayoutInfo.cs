@@ -34,10 +34,10 @@
 using System;
 using System.Globalization;
 using System.Reflection;
-using NLog.Config;
-using NLog.Internal;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     /// <summary>
     /// Typed Value that is easily configured from NLog.config file

@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System.Text;
-    using NLog.MessageTemplates;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.MessageTemplates;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class LogMessageFormatterTests : NLogTestBase

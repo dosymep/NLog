@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System;
     using System.Collections.Generic;
@@ -40,9 +40,9 @@ namespace NLog.UnitTests.LayoutRenderers
     using System.Reflection;
     using System.Threading;
     using System.Xml;
-    using NLog.Internal;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class Log4JXmlTests : NLogTestBase

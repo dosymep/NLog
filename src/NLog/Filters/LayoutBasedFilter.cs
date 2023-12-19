@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Filters
+namespace pyRevitLabs.NLog.Filters
 {
     using Config;
     using Layouts;

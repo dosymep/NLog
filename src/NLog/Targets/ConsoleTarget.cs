@@ -33,16 +33,16 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.IO;
     using System.Text;
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Writes log messages to the console.

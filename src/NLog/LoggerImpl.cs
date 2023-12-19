@@ -35,16 +35,16 @@
 #define CaptureCallSiteInfo
 #endif
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using JetBrains.Annotations;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Filters;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Implementation of logging engine.

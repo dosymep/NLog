@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// A layout renderer which could have different behavior per instance by using a <see cref="Func{TResult}"/>.

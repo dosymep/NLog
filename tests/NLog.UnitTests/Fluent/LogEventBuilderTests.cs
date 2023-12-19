@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Fluent
+namespace pyRevitLabs.NLog.UnitTests.Fluent
 {
     using System;
     using System.IO;
     using System.Collections.Generic;
-    using NLog.Config;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class LogEventBuilderTests : NLogTestBase

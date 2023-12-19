@@ -32,10 +32,10 @@
 // 
 
 using System.Text;
-using NLog.Targets;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     /// <summary>
     ///     Test via <see cref="IJsonConverter" /> path

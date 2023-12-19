@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Action that should be taken if the message overflows.

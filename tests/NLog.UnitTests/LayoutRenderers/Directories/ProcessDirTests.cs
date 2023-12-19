@@ -34,7 +34,7 @@
 using System.IO;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class ProcessDirTests : NLogTestBase
     {

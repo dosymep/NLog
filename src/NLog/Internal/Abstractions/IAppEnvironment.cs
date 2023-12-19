@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.Fakeables
+namespace pyRevitLabs.NLog.Internal.Fakeables
 {
     using System;
     using System.Collections.Generic;

@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Text;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Render a NLog Configuration variable assigned from API or loaded from config-file

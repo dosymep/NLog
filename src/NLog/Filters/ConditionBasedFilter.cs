@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Filters
+namespace pyRevitLabs.NLog.Filters
 {
-    using NLog.Conditions;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Matches when the specified condition is met.

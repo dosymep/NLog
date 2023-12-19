@@ -33,11 +33,11 @@
 
 #if NET35 || NET40 || NET45
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Runtime.Serialization;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     [Serializable]
     internal class ObjectHandleSerializer : ISerializable

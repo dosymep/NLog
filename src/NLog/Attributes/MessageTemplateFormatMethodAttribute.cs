@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// Mark a parameter of a method for message templating

@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Object construction helper.

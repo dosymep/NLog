@@ -34,9 +34,9 @@
 using System;
 using System.IO;
 using System.Text;
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     internal static class ConsoleTargetHelper
     {

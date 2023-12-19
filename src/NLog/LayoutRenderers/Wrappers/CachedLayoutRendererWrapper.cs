@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     using System;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Applies caching to another layout output.

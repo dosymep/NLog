@@ -35,9 +35,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Xunit;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Layouts;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class ProcessNameLayoutRendererTests : NLogTestBase
     {

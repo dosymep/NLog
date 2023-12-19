@@ -33,17 +33,17 @@
 
 #if !MONO && !NETSTANDARD
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.Eventing.Reader;
     using System.Linq;
     using System.Diagnostics;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class EventLogTargetTests : NLogTestBase

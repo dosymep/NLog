@@ -34,7 +34,7 @@
 using System.Diagnostics;
 using Xunit;
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     public class DebugSystemTargetTests : NLogTestBase
     {

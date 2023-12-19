@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Security.Principal;
     using System.Text;

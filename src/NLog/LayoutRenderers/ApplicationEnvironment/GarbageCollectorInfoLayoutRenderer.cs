@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Text;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The information about the garbage collector.

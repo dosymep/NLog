@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Config;
+using pyRevitLabs.NLog.Config;
 using System;
 using System.Globalization;
 using Xunit;
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     public class PropertyTypeConverterTests
     {

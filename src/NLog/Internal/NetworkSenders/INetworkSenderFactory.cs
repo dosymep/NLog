@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.Internal.NetworkSenders
 {
     using System;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Creates instances of <see cref="NetworkSender"/> objects for given URLs.

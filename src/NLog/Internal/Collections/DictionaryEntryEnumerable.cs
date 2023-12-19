@@ -35,7 +35,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Ensures that IDictionary.GetEnumerator returns DictionaryEntry values

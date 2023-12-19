@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Obsolete and replaced by <see cref="LogManager.Setup()"/> with NLog v5.2.

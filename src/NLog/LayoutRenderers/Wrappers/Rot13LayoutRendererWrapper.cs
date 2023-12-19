@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     using System;
     using System.Text;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Decodes text "encrypted" with ROT-13.

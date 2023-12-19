@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
-    using NLog.Layouts;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
     using System;
     using System.Globalization;
     using System.IO;

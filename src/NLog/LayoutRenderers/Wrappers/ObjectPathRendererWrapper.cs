@@ -34,10 +34,10 @@
 using System;
 using System.Globalization;
 using System.Text;
-using NLog.Config;
-using NLog.Internal;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     /// <summary>
     /// Render a single property of a object

@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The sequence ID

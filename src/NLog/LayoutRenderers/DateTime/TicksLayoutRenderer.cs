@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Globalization;
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The Ticks value of current date and time.

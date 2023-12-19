@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     /// <summary>
     /// Error when parsing a template.

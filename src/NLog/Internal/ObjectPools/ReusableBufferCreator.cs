@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Controls a single allocated char[]-buffer for reuse (only one active user)

@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System.Threading;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Distributes log events to targets in a round-robin fashion.

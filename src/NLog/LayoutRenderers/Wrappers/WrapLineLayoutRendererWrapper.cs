@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     using System;
     using System.Text;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Replaces newline characters from the result of another layout renderer with spaces.

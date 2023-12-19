@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Layouts
+namespace pyRevitLabs.NLog.UnitTests.Layouts
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using NLog.Config;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class JsonLayoutTests : NLogTestBase

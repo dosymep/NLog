@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal.FileAppenders
+namespace pyRevitLabs.NLog.UnitTests.Internal.FileAppenders
 {
     using System;
     using System.IO;
@@ -39,8 +39,8 @@ namespace NLog.UnitTests.Internal.FileAppenders
 
     using Xunit;
 
-    using NLog.Targets;
-    using NLog.Internal.FileAppenders;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Internal.FileAppenders;
 
     public class FileAppenderCacheTests : NLogTestBase
     {

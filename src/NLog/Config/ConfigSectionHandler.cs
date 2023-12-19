@@ -33,13 +33,13 @@
 
 #if !NETSTANDARD
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Configuration;
     using System.Xml;
-    using NLog.Common;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Represents NLog ConfigSection for loading <see cref="XmlLoggingConfiguration"/> from app.config / web.config

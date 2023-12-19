@@ -33,13 +33,13 @@
 
 #if !NETSTANDARD || WindowsEventLogPackage
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Diagnostics;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Writes log message to the Event Log.

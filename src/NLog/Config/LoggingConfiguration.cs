@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
@@ -42,11 +42,11 @@ namespace NLog.Config
     using System.Threading;
     using JetBrains.Annotations;
 
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Layouts;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
 
     /// <summary>
     /// Keeps logging configuration and provides simple API to modify it.

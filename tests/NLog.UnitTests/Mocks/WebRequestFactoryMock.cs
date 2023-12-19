@@ -33,9 +33,9 @@
 
 using System;
 using System.Net;
-using NLog.Internal.NetworkSenders;
+using pyRevitLabs.NLog.Internal.NetworkSenders;
 
-namespace NLog.UnitTests.Mocks
+namespace pyRevitLabs.NLog.UnitTests.Mocks
 {
     [Obsolete("WebRequest is obsolete. Use HttpClient instead.")]
     class WebRequestFactoryMock : IWebRequestFactory

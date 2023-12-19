@@ -34,10 +34,10 @@
 using System;
 using System.Linq;
 using System.Runtime.InteropServices;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Layouts;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
     public class ObjectPathRendererWrapperTests
     {

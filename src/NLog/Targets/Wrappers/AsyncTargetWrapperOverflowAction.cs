@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     /// <summary>
     /// The action to be taken when the queue overflows.

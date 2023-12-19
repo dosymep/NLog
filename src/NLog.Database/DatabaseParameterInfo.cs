@@ -31,17 +31,17 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.Data;
     using System.Globalization;
     using System.Reflection;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Represents a parameter to a Database target.

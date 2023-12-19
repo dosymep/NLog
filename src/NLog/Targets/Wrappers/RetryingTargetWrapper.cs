@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Retries in case of write error.

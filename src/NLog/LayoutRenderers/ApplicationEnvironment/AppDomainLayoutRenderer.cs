@@ -34,10 +34,10 @@
 using System;
 using System.ComponentModel;
 using System.Text;
-using NLog.Config;
-using NLog.Internal.Fakeables;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal.Fakeables;
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     /// <summary>
     ///  Used to render the application domain name.

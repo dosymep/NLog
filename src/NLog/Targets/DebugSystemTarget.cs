@@ -33,7 +33,7 @@
 
 #define DEBUG   // System.Diagnostics.Debug.WriteLine
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Outputs log messages through <see cref="System.Diagnostics.Debug.WriteLine(string)" />

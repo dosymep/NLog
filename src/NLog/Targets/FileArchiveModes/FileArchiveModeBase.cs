@@ -34,9 +34,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     internal abstract class FileArchiveModeBase : IFileArchiveMode
     {

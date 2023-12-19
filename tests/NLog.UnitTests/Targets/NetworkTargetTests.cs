@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Collections.Generic;
@@ -42,10 +42,10 @@ namespace NLog.UnitTests.Targets
     using System.Security.Authentication;
     using System.Text;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal.NetworkSenders;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal.NetworkSenders;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class NetworkTargetTests : NLogTestBase

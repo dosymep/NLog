@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Collections.Generic;
@@ -42,9 +42,9 @@ namespace NLog.UnitTests.Targets
     using System.Linq;
     using System.Net;
     using System.Net.Mail;
-    using NLog.Internal;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class MailTargetTests

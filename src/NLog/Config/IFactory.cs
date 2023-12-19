@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Diagnostics.CodeAnalysis;

@@ -32,7 +32,7 @@
 // 
 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Collections.Generic;
@@ -42,9 +42,9 @@ namespace NLog.UnitTests
     using System.IO.Compression;
     using System.Runtime.CompilerServices;
     using System.Text;
-    using NLog.Common;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 #if !NETSTANDARD
     using Ionic.Zip;

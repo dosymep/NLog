@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System;
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// XML attribute.

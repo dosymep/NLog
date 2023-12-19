@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.Internal.NetworkSenders
 {
     using System;
     using System.Collections.Generic;
-    using NLog.Common;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// A base class for network senders that can block or send out-of-order

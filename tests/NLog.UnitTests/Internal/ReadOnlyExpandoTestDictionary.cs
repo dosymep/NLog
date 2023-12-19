@@ -33,7 +33,7 @@
 
 #if !NET35 && !NET40
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     using System.Collections;
     using System.Collections.Generic;

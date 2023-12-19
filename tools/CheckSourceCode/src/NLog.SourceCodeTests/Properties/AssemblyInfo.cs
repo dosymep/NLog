@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NLog.SourceCodeTests")]
+[assembly: AssemblyTitle("pyRevitLabs.NLog.SourceCodeTests")]
 [assembly: AssemblyDescription("Checks source code for common errors.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NLog")]
-[assembly: AssemblyProduct("NLog.SourceCodeTests")]
+[assembly: AssemblyCompany("pyRevitLabs.NLog")]
+[assembly: AssemblyProduct("pyRevitLabs.NLog.SourceCodeTests")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

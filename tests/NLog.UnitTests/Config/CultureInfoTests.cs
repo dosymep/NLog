@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     using System;
     using System.Globalization;
     using System.Threading;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class CultureInfoTests : NLogTestBase

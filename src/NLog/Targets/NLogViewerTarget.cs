@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Sends log messages to the remote instance of NLog Viewer. 

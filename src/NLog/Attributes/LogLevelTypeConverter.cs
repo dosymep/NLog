@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Attributes
+namespace pyRevitLabs.NLog.Attributes
 {
     using System;
     using System.ComponentModel;

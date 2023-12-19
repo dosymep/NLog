@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
 
     using System;

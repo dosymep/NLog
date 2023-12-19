@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 using System;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class GuardTests
     {

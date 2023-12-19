@@ -32,14 +32,14 @@
 // 
 
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     using System;
     using System.Text;
     using JetBrains.Annotations;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class ServiceRepositoryTests : NLogTestBase

@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Collections.Generic;
@@ -40,12 +40,12 @@ namespace NLog.LayoutRenderers
     using System.Reflection;
     using System.Text;
     using System.Xml;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Internal.Fakeables;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// XML event description compatible with log4j, Chainsaw and NLogViewer.

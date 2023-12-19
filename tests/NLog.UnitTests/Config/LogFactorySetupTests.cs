@@ -34,14 +34,14 @@
 using System;
 using System.IO;
 using System.Linq;
-using NLog.Common;
-using NLog.Config;
-using NLog.Layouts;
-using NLog.LayoutRenderers;
-using NLog.Targets;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.LayoutRenderers;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     public class LogFactorySetupTests
     {

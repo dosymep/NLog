@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System.Collections.Generic;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Interface for fluent setup of target for LoggingRule

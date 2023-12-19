@@ -33,14 +33,14 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Diagnostics;
     using System.Globalization;
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// A renderer that puts into log a System.Diagnostics trace correlation id.

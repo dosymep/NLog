@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace NLog.SourceCodeTests
+namespace pyRevitLabs.NLog.SourceCodeTests
 {
     class Program
     {

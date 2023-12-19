@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.MessageTemplates
+namespace pyRevitLabs.NLog.UnitTests.MessageTemplates
 {
     using System;
-    using NLog.MessageTemplates;
+    using pyRevitLabs.NLog.MessageTemplates;
     using Xunit;
 
     public class ParserTests

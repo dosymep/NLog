@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Globalization;
     using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
-    using NLog.Targets;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     public class LoggerTests : NLogTestBase

@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Sends log messages to the remote instance of Chainsaw application from log4j. 

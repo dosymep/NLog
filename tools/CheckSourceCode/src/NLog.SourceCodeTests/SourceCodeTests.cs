@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace NLog.SourceCodeTests
+namespace pyRevitLabs.NLog.SourceCodeTests
 {
     /// <summary>
     /// Source code tests.

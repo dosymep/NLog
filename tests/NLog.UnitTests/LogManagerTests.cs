@@ -33,15 +33,15 @@
 
 using JetBrains.Annotations;
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.IO;
     using System.Linq;
     using Xunit;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Targets;
     using System.Threading.Tasks;
 
     public class LogManagerTests : NLogTestBase

@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     internal class SetupLoadConfigurationBuilder : ISetupLoadConfigurationBuilder
     {

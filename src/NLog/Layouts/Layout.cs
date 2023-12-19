@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System;
     using System.Collections.Generic;
@@ -40,10 +40,10 @@ namespace NLog.Layouts
     using System.Linq;
     using System.Text;
     using JetBrains.Annotations;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Common;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Abstract interface that layouts must implement.

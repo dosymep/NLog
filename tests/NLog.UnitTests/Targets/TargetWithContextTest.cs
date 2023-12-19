@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Linq;
     using System.Collections.Generic;
     using Xunit;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
 
     public class TargetWithContextTest : NLogTestBase
     {

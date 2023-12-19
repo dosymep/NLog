@@ -32,9 +32,9 @@
 // 
 
 using System;
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     static class FileArchiveModeFactory
     {

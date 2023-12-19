@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Globalization;
     using System.Text;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// <see cref="ScopeContext"/> Timing Renderer (Async scope)

@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     using System;
     using System.Linq;
@@ -39,11 +39,11 @@ namespace NLog.UnitTests.Config
     using System.Text.RegularExpressions;
     using System.IO;
     using MyExtensionNamespace;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Filters;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class ExtensionTests : NLogTestBase

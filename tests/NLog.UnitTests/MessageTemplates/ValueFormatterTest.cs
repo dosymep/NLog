@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.MessageTemplates;
+using pyRevitLabs.NLog.MessageTemplates;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using Xunit;
 
-namespace NLog.UnitTests.MessageTemplates
+namespace pyRevitLabs.NLog.UnitTests.MessageTemplates
 {
     public class ValueFormatterTest : NLogTestBase
     {

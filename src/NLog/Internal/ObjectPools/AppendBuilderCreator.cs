@@ -34,7 +34,7 @@
 using System;
 using System.Text;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Allocates new builder and appends to the provided target builder on dispose

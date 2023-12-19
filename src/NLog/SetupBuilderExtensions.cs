@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Runtime.CompilerServices;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Extension methods to setup LogFactory options

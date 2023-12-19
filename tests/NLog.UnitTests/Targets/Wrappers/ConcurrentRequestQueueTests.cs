@@ -34,11 +34,11 @@
 #if !NET35
 
 using System.Collections.Generic;
-using NLog.Common;
-using NLog.Targets.Wrappers;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Targets.Wrappers;
 using Xunit;
 
-namespace NLog.UnitTests.Targets.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.Targets.Wrappers
 {
     public class ConcurrentRequestQueueTests : NLogTestBase
     {

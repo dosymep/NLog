@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.ComponentModel;
     using JetBrains.Annotations;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Provides logging interface and utility functions.

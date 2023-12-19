@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
@@ -42,10 +42,10 @@ namespace NLog.Targets
     using System.Net.Mail;
     using System.Text;
     using System.IO;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
 #if !NETSTANDARD
     using System.Configuration;

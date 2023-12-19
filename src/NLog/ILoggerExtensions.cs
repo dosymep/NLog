@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.ComponentModel;
@@ -40,7 +40,7 @@ namespace NLog
     using System.Threading.Tasks;
 #endif
     using JetBrains.Annotations;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Extensions for NLog <see cref="ILogger"/>.

@@ -35,10 +35,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using NLog.Config;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Layouts;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     [DebuggerDisplay("Count = {Count}")]
     internal class ConfigVariablesDictionary : IDictionary<string, Layout>

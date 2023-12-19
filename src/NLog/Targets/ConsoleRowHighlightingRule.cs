@@ -33,10 +33,10 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
-    using NLog.Conditions;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// The row-highlighting condition.

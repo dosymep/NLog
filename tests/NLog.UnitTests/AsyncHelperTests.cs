@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
     using Xunit;
 
     public class AsyncHelperTests : NLogTestBase

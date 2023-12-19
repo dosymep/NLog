@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Modes of archiving files based on time.

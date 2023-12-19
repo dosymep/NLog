@@ -33,16 +33,16 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Net;
     using System.Net.NetworkInformation;
     using System.Net.Sockets;
     using System.Text;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The IP address from the network interface card (NIC) on the local machine

@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// SMTP authentication modes.

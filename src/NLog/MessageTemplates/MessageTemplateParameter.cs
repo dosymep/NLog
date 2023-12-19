@@ -33,9 +33,9 @@
 
 using System;
 using JetBrains.Annotations;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     /// <summary>
     /// Description of a single parameter extracted from a MessageTemplate

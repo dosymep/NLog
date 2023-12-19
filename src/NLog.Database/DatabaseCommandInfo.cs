@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System.Collections.Generic;
     using System.Data;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Information about database command + parameters.

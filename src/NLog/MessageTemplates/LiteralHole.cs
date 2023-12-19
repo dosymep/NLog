@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     /// <summary>
     /// Combines Literal and Hole

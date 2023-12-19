@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Database.Tests
+namespace pyRevitLabs.NLog.Database.Tests
 {
     using System;
     using System.Collections;
@@ -43,8 +43,8 @@ namespace NLog.Database.Tests
     using System.Data.Common;
     using System.Globalization;
     using System.IO;
-    using NLog.Config;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
 #if MONO

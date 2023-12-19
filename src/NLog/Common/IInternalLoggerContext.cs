@@ -33,7 +33,7 @@
 
 using JetBrains.Annotations;
 
-namespace NLog.Common
+namespace pyRevitLabs.NLog.Common
 {
     /// <summary>
     /// Enables <see cref="InternalLogger"/> to extract extra context details for <see cref="InternalLogger.LogMessageReceived"/>

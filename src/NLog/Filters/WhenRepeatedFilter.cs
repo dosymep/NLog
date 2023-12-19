@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Filters
+namespace pyRevitLabs.NLog.Filters
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Text;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Matches when the result of the calculated layout has been repeated a moment ago

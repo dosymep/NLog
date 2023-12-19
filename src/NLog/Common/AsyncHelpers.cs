@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Common
+namespace pyRevitLabs.NLog.Common
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Text;
     using System.Threading;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Helpers for asynchronous operations.

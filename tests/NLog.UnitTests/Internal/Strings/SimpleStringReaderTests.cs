@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
     using System;
     using System.Collections.Generic;
     using System.Linq;

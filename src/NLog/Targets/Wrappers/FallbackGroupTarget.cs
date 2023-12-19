@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System.Collections.Generic;
     using System.Threading;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Provides fallback-on-error.

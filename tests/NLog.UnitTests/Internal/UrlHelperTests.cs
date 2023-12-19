@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Internal;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.Layouts;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class UrlHelperTests
     {

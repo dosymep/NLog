@@ -34,9 +34,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// <see cref="ScopeContext"/> stores state in the async thread execution context. All LogEvents created

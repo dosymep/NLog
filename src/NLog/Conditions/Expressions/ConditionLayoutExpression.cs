@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Conditions
+namespace pyRevitLabs.NLog.Conditions
 {
     using Layouts;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
     using System.Text;
 
     /// <summary>

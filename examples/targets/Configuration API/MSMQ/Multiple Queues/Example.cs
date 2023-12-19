@@ -1,6 +1,6 @@
-using NLog;
-using NLog.Config;
-using NLog.Win32.Targets;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Win32.Targets;
 
 class Example
 {

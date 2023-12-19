@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// A base class for targets which wrap other (multiple) targets

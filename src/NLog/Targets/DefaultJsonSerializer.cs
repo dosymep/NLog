@@ -37,9 +37,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Text;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Default class for serialization of values to JSON format.

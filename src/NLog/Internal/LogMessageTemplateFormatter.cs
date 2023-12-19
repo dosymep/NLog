@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections.Generic;
@@ -39,7 +39,7 @@ namespace NLog.Internal
     using System.Text;
     using JetBrains.Annotations;
     using MessageTemplates;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     internal sealed class LogMessageTemplateFormatter : ILogMessageFormatter
     {

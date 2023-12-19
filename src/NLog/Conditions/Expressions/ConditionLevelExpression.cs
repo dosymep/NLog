@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Conditions
+namespace pyRevitLabs.NLog.Conditions
 {
     /// <summary>
     /// Condition level expression (represented by the <b>level</b> keyword).

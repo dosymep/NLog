@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.UnitTests.Internal.NetworkSenders
 {
     using System;
     using System.Collections.Generic;
@@ -40,7 +40,7 @@ namespace NLog.UnitTests.Internal.NetworkSenders
     using System.Net.Sockets;
     using System.Text;
     using System.Threading;
-    using NLog.Internal.NetworkSenders;
+    using pyRevitLabs.NLog.Internal.NetworkSenders;
     using Xunit;
 
     public class TcpNetworkSenderTests : NLogTestBase

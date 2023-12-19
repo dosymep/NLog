@@ -35,8 +35,8 @@ namespace MyExtensionNamespace
 {
     using System.Text;
 
-    using NLog;
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.LayoutRenderers;
 
     [LayoutRenderer("foo")]
     public class FooLayoutRenderer : LayoutRenderer

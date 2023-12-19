@@ -1,5 +1,5 @@
-﻿using NLog;
-using NLog.Targets;
+﻿using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
 
 namespace ManuallyLoadedExtension
 {

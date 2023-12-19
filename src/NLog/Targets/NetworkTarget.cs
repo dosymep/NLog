@@ -31,17 +31,17 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Internal.NetworkSenders;
-    using NLog.Layouts;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.NetworkSenders;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets.Wrappers;
 
     /// <summary>
     /// Sends log messages over the network.

@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.Internal.NetworkSenders
 {
     using System;
     using System.Net.Sockets;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Default implementation of <see cref="INetworkSenderFactory"/>.

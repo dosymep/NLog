@@ -38,15 +38,15 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using JetBrains.Annotations;
-using NLog.Common;
-using NLog.Filters;
-using NLog.Internal;
-using NLog.Layouts;
-using NLog.Targets;
-using NLog.Targets.Wrappers;
-using NLog.Time;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Filters;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Targets.Wrappers;
+using pyRevitLabs.NLog.Time;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Loads NLog configuration from <see cref="ILoggingConfigurationElement"/>

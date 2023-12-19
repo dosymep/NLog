@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     /// <summary>
     /// Arguments for <see cref="AsyncTargetWrapper.LogEventDropped"/> events.

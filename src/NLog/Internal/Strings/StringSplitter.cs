@@ -35,7 +35,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Split a string

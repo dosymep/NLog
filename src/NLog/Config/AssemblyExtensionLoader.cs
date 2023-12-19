@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using NLog.Common;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
 
     [Obsolete("Instead use RegisterType<T>, as dynamic Assembly loading will be moved out. Marked obsolete with NLog v5.2")]
     internal class AssemblyExtensionLoader : IAssemblyExtensionLoader

@@ -1,8 +1,8 @@
 using System;
 
-using NLog;
-using NLog.Targets;
-using NLog.Win32.Targets;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Win32.Targets;
 using System.Diagnostics;
 
 class Example

@@ -33,8 +33,8 @@
 
 namespace MyExtensionNamespace
 {
-    using NLog;
-    using NLog.Filters;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Filters;
 
     [Filter("whenFoo")]
     public class WhenFooFilter : Filter

@@ -33,15 +33,15 @@
 
 using System;
 using System.Collections.Generic;
-using NLog.Conditions;
-using NLog.Config;
-using NLog.Filters;
-using NLog.Internal;
-using NLog.Layouts;
-using NLog.Targets;
-using NLog.Targets.Wrappers;
+using pyRevitLabs.NLog.Conditions;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Filters;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Targets.Wrappers;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// Extension methods to setup NLog <see cref="LoggingConfiguration"/>

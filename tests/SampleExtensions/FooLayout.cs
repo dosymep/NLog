@@ -33,8 +33,8 @@
 
 namespace MyExtensionNamespace
 {
-    using NLog;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Layouts;
 
     [Layout("FooLayout")]
     public class FooLayout : Layout

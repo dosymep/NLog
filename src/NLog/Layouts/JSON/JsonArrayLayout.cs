@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System.Collections.Generic;
     using System.Text;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// A specialized layout that renders LogEvent as JSON-Array

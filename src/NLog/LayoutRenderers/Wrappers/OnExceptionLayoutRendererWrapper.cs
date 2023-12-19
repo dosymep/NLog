@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     using System.Text;
-    using NLog.Config;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Only outputs the inner layout when exception has been defined for log message.

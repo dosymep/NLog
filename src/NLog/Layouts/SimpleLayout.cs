@@ -31,17 +31,17 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.Text;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.LayoutRenderers;
 
     /// <summary>
     /// Represents a string with embedded placeholders that can render contextual information.

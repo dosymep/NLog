@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Common
+namespace pyRevitLabs.NLog.UnitTests.Common
 {
     using System;
     using System.Collections.Generic;
@@ -39,8 +39,8 @@ namespace NLog.UnitTests.Common
     using System.IO;
     using System.Linq;
     using System.Text;
-    using NLog.Common;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Time;
     using Xunit;
 
     public sealed class InternalLoggerTests : NLogTestBase, IDisposable

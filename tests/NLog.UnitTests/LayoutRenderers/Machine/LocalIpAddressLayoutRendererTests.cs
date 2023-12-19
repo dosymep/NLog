@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System;
     using System.Collections.Generic;
@@ -39,8 +39,8 @@ namespace NLog.UnitTests.LayoutRenderers
     using System.Net;
     using System.Net.NetworkInformation;
     using System.Net.Sockets;
-    using NLog.Internal;
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.LayoutRenderers;
     using NSubstitute;
     using NSubstitute.ExceptionExtensions;
     using Xunit;

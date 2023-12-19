@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     /// <summary>
     /// Parse templates.

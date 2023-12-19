@@ -34,9 +34,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using NLog.Internal.Fakeables;
+using pyRevitLabs.NLog.Internal.Fakeables;
 
-namespace NLog.UnitTests.Mocks
+namespace pyRevitLabs.NLog.UnitTests.Mocks
 {
     [Obsolete("For unit testing only. Marked obsolete on NLog 5.0")]
     public class AppDomainMock : IAppDomain

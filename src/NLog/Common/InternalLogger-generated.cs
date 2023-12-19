@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Common
+namespace pyRevitLabs.NLog.Common
 {
     using JetBrains.Annotations;
     using System;

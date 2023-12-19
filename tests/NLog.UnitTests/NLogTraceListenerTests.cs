@@ -33,13 +33,13 @@
 
 #define DEBUG
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Globalization;
     using System.Threading;
     using System.Diagnostics;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     public sealed class NLogTraceListenerTests : NLogTestBase, IDisposable

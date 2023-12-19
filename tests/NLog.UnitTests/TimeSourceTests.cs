@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Time;
     using Xunit;
 
     public sealed class TimeSourceTests : NLogTestBase, IDisposable

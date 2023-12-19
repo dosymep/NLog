@@ -34,9 +34,9 @@
 using System;
 using System.Collections.Generic;
 using System.Xml;
-using NLog.Internal.Fakeables;
+using pyRevitLabs.NLog.Internal.Fakeables;
 
-namespace NLog.UnitTests.Mocks
+namespace pyRevitLabs.NLog.UnitTests.Mocks
 {
     internal class AppEnvironmentMock : IAppEnvironment
     {

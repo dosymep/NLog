@@ -33,10 +33,10 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System.Diagnostics;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Writes log messages to the attached managed debugger.

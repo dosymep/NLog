@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Text;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// A specialized layout that renders Log4j-compatible XML events.

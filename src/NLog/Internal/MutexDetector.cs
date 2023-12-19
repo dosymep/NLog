@@ -35,11 +35,11 @@
 #define SupportsMutex
 #endif
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
-    using NLog.Common;
-    using NLog.Internal.FileAppenders;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal.FileAppenders;
 
     /// <summary>
     /// Detects the platform the NLog is running on.

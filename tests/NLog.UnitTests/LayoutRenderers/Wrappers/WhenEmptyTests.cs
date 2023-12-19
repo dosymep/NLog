@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
     using System;
-    using NLog;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class WhenEmptyTests : NLogTestBase

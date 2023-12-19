@@ -35,9 +35,9 @@ using System;
 using System.ComponentModel;
 using System.Globalization;
 using JetBrains.Annotations;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Line ending mode.

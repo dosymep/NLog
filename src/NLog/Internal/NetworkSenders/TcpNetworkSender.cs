@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.Internal.NetworkSenders
 {
     using System;
     using System.IO;
     using System.Net.Sockets;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Sends messages over a TCP network connection.

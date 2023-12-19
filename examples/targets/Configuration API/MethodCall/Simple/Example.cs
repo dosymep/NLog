@@ -1,7 +1,7 @@
 using System;
 
-using NLog;
-using NLog.Targets;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
 using System.Diagnostics;
 
 public class Example

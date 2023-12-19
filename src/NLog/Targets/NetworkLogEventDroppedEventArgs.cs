@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Arguments for <see cref="NetworkTarget.LogEventDropped"/> events.

@@ -34,9 +34,9 @@
 using System;
 using System.Globalization;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class TicksLayoutRendererTests : NLogTestBase

@@ -33,8 +33,8 @@
 
 using System;
 using System.Diagnostics;
-using NLog;
-using NLog.Config;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Config;
 
 namespace LoaderTestPublic
 {

@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System.IO;
-    using NLog.Common;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Extension methods to setup NLog <see cref="InternalLogger"/> options

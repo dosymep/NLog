@@ -34,12 +34,12 @@
 
 using System;
 using System.IO;
-using NLog.Common;
-using NLog.Config;
-using NLog.Targets.Wrappers;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Targets.Wrappers;
 using Xunit;
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     public class XmlConfigTests : NLogTestBase
     {

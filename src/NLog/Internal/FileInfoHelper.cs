@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     internal static class FileInfoHelper
     {

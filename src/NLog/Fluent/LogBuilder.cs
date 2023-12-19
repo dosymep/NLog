@@ -37,9 +37,9 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Fluent
+namespace pyRevitLabs.NLog.Fluent
 {
     /// <summary>
     /// Obsolete and replaced by <see cref="LogEventBuilder"/> with NLog v5.

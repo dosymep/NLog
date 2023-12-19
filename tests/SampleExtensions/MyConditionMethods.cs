@@ -35,7 +35,7 @@ namespace MyExtensionNamespace
 {
     using System;
 
-    using NLog.Conditions;
+    using pyRevitLabs.NLog.Conditions;
 
     [ConditionMethods]
     public static class MyConditionMethods

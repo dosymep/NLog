@@ -32,7 +32,7 @@
 // 
 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
     using AsyncDelegate = System.Threading.WaitCallback;

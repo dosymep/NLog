@@ -33,14 +33,14 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Linq;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.Fakeables;
 
     /// <summary>
     /// Enables FileWatcher for the currently loaded NLog Configuration File,

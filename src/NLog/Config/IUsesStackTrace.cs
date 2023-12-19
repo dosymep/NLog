@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Allows components to request stack trace information to be provided in the <see cref="LogEventInfo"/>.

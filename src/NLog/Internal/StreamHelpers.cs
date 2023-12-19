@@ -35,9 +35,9 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Text;
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Stream helpers

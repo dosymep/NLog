@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Marks class as layout-renderer and attaches a type-alias name for use in NLog configuration.

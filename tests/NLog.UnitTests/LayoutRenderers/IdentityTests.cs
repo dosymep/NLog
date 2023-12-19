@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System;
     using System.Security.Principal;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Targets.Wrappers;
-    using NLog.UnitTests.Common;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.UnitTests.Common;
     using Xunit;
 
     public class IdentityTests : NLogTestBase

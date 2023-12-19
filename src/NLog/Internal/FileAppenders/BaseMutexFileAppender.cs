@@ -35,7 +35,7 @@
 #define SupportsMutex
 #endif
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     using System;
     using System.IO;

@@ -32,11 +32,11 @@
 // 
 
 using System;
-using NLog.Config;
-using NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     static class LogFactoryTestExtensions
     {

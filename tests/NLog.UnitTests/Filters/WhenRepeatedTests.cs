@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Config;
+using pyRevitLabs.NLog.Config;
 
-namespace NLog.UnitTests.Filters
+namespace pyRevitLabs.NLog.UnitTests.Filters
 {
     using System;
     using Xunit;

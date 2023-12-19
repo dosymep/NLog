@@ -33,7 +33,7 @@
 
 using System.IO;
 
-namespace NLog.UnitTests.Mocks
+namespace pyRevitLabs.NLog.UnitTests.Mocks
 {
     /// <summary>
     /// Memorystream that doesn't dispose by default for asserting the content

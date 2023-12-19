@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.LayoutRenderers.Wrappers
 {
     using System;
     using System.Text;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.Layouts;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Only outputs the inner layout when the specified condition has been met.

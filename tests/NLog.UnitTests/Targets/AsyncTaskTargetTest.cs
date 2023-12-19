@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
 #if !NET35
     using System;
@@ -39,9 +39,9 @@ namespace NLog.UnitTests.Targets
     using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class AsyncTaskTargetTest : NLogTestBase

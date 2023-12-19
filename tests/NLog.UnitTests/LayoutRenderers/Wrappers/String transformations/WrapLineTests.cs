@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Config;
+using pyRevitLabs.NLog.Config;
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
-    using NLog;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class WrapLineTests : NLogTestBase

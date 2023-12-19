@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.Fakeables
+namespace pyRevitLabs.NLog.Internal.Fakeables
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.IO;
     using System.Xml;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     internal class AppEnvironmentWrapper : IAppEnvironment
     {

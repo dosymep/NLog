@@ -34,12 +34,12 @@
 
 #if !MONO
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     using System;
     using System.IO;
     using System.Threading;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     public class ReloadTests : NLogTestBase

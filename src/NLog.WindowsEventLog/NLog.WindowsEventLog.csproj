@@ -1,6 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>pyRevitLabs.NLog.WindowsEventLog</AssemblyName>
+    <RootNamespace>pyRevitLabs.NLog.WindowsEventLog</RootNamespace>
+    
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
 
     <TargetFrameworks>netstandard2.0</TargetFrameworks>

@@ -34,10 +34,10 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using NLog.Common;
-using NLog.Internal;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     internal static class LoggingConfigurationElementExtensions
     {

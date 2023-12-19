@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Layouts
+namespace pyRevitLabs.NLog.UnitTests.Layouts
 {
-    using NLog.LayoutRenderers;
-    using NLog.Internal;
-    using NLog.Config;
-    using NLog.LayoutRenderers.Wrappers;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers.Wrappers;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class ThreadAgnosticTests : NLogTestBase

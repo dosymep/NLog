@@ -37,13 +37,13 @@
 
 #if SupportsMutex
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     using System;
     using System.IO;
     using System.Security;
     using System.Threading;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Provides a multi process-safe atomic file appends while

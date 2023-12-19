@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections;
     using System.Collections.Generic;
-    using NLog.Config;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Targets;
 
     internal class SetupConfigurationTargetBuilder : ISetupConfigurationTargetBuilder, IList<Target>
     {

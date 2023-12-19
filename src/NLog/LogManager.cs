@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.Collections.Generic;
@@ -41,9 +41,9 @@ namespace NLog
     using System.Reflection;
     using System.Runtime.CompilerServices;
 
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Creates and manages instances of <see cref="NLog.Logger" /> objects.

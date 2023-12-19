@@ -5,10 +5,10 @@ using System.Collections;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using NLog.Targets.Wrappers;
-using NLog.Targets;
-using NLog.Config;
-using NLog;
+using pyRevitLabs.NLog.Targets.Wrappers;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog;
 
 namespace ASPNetBufferingWrapper
 {

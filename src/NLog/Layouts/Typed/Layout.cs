@@ -36,11 +36,11 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Text;
 using JetBrains.Annotations;
-using NLog.Common;
-using NLog.Config;
-using NLog.Internal;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     /// <summary>
     /// Typed Layout for easy conversion from NLog Layout logic to a simple value (ex. integer or enum)

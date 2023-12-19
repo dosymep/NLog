@@ -39,10 +39,10 @@ using System.Security;
 using System.Security.Permissions;
 using System.Text;
 using System.Threading;
-using NLog.Config;
+using pyRevitLabs.NLog.Config;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class AppDomainPartialTrustTests : NLogTestBase
     {

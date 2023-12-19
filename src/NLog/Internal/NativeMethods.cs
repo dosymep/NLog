@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Runtime.InteropServices;

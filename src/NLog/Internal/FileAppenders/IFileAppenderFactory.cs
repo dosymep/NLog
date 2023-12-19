@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     /// <summary>
     /// Interface implemented by all factories capable of creating file appenders.

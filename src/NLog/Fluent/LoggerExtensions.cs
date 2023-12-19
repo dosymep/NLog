@@ -32,7 +32,7 @@
 // 
 using System;
 
-namespace NLog.Fluent
+namespace pyRevitLabs.NLog.Fluent
 {
     /// <summary>
     /// Extension methods for NLog <see cref="Logger"/>.

@@ -1,6 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>pyRevitLabs.NLog.WindowsRegistry.Tests</AssemblyName>
+    <RootNamespace>pyRevitLabs.NLog.WindowsRegistry.Tests</RootNamespace>
+    
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
     <TargetFrameworks Condition=" '$(TargetFrameworks)' == '' AND '$(VisualStudioVersion)' &lt; '17.0' ">net461</TargetFrameworks>
     <TargetFrameworks Condition=" '$(TargetFrameworks)' == '' ">net461;net6.0</TargetFrameworks>

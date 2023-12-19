@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Conditions
+namespace pyRevitLabs.NLog.Conditions
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     internal sealed class ConditionMethodExpression : ConditionExpression
     {

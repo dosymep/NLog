@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Interface for fluent setup of LoggingConfiguration for LogFactory 

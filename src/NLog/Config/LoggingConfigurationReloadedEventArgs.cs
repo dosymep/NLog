@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
 

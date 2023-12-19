@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Fluent
+namespace pyRevitLabs.NLog.UnitTests.Fluent
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using NLog.Config;
-    using NLog.Fluent;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Fluent;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     [Obsolete("Obsoleted since it allocates unnecessary. Instead use ILogger.ForLogEvent and LogEventBuilder. Obsoleted in NLog 5.0")]

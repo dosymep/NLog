@@ -33,13 +33,13 @@
 
 #if !NET35
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
     using System.Collections.Concurrent;
     using System.Collections.Generic;
     using System.Threading;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Concurrent Asynchronous request queue based on <see cref="ConcurrentQueue{T}"/>

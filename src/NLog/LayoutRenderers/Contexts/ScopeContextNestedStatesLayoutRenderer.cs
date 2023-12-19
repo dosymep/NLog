@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.Text;
-    using NLog.Internal;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Layouts;
 
     /// <summary>
     /// Renders the nested states from <see cref="ScopeContext"/> like a callstack

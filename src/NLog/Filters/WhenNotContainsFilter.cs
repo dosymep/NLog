@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Filters
+namespace pyRevitLabs.NLog.Filters
 {
     using System;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Matches when the calculated layout does NOT contain the specified substring.

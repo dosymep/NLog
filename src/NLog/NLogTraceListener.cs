@@ -33,7 +33,7 @@
 
 #if !NETSTANDARD1_3 && !NETSTANDARD1_5
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.Collections;
@@ -41,7 +41,7 @@ namespace NLog
     using System.Diagnostics;
     using System.Text;
     using System.Xml;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// TraceListener which routes all messages through NLog.

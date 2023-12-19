@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
-    using NLog.Layouts;
-    using NLog.LayoutRenderers.Wrappers;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.LayoutRenderers.Wrappers;
     using Xunit;
 
     public class Rot13Tests : NLogTestBase

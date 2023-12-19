@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Linq;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class MemoryTargetTests : NLogTestBase

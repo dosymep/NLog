@@ -35,9 +35,9 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using NLog.MessageTemplates;
+using pyRevitLabs.NLog.MessageTemplates;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Helpers for <see cref="StringBuilder"/>, which is used in e.g. layout renderers.

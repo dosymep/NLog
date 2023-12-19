@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Collections.Concurrent;
@@ -50,8 +50,8 @@ using System.Web.Http.Dependencies;
 using Microsoft.Owin.Hosting;
 using Owin;
 #endif
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class WebServiceTargetTests : NLogTestBase

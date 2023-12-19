@@ -33,11 +33,11 @@
 
 #if !NETSTANDARD
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Runtime.InteropServices;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
 
     internal static class Win32FileNativeMethods
     {

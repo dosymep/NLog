@@ -33,7 +33,7 @@
 
 using JetBrains.Annotations;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
 

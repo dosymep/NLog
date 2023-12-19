@@ -32,10 +32,10 @@
 // 
 
 using JetBrains.Annotations;
-using NLog.Layouts;
-using NLog.Targets;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.Targets;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// Extensions for NLog <see cref="Layout{T}"/>.

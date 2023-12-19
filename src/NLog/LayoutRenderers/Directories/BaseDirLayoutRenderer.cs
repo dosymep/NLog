@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.IO;
     using System.Text;
-    using NLog.Internal.Fakeables;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The current application domain's base directory.

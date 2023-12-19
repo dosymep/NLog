@@ -31,19 +31,19 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Reflection;
     using System.Text;
-    using NLog.Common;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.LayoutRenderers;
-    using NLog.LayoutRenderers.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.LayoutRenderers.Wrappers;
 
     /// <summary>
     /// Parses layout strings.

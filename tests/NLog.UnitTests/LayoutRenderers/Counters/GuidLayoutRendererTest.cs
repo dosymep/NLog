@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.LayoutRenderers;
     using Xunit;
 
     public class GuidLayoutRendererTest : NLogTestBase

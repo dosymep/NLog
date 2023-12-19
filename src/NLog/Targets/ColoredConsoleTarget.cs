@@ -33,15 +33,15 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Text;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.IO;
-    using NLog.Common;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Writes log messages to the console with customizable coloring.

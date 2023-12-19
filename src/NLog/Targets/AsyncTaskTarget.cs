@@ -33,15 +33,15 @@
 
 #if !NET35
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
     using System.Threading.Tasks;
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets.Wrappers;
 
     /// <summary>
     /// Abstract Target with async Task support

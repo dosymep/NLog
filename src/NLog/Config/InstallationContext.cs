@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
@@ -39,7 +39,7 @@ namespace NLog.Config
     using System.Globalization;
     using System.IO;
     // ReSharper disable once RedundantUsingDirective
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Provides context for install/uninstall operations.

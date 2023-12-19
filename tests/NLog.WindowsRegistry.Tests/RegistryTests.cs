@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.WindowsRegistry.Tests
+namespace pyRevitLabs.NLog.WindowsRegistry.Tests
 {
     using System;
     using Microsoft.Win32;

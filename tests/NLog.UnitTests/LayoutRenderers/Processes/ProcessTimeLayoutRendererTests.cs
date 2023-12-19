@@ -33,10 +33,10 @@
 
 using System;
 using System.Text;
-using NLog.LayoutRenderers;
+using pyRevitLabs.NLog.LayoutRenderers;
 using Xunit;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class ProcessTimeLayoutRendererTests : NLogTestBase
     {

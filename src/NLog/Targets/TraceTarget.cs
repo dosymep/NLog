@@ -35,7 +35,7 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System.Diagnostics;
 

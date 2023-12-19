@@ -33,12 +33,12 @@
 
 using System;
 using System.Linq;
-using NLog.Config;
-using NLog.Internal;
-using NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     public class ConfigApiTests
     {

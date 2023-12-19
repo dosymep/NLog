@@ -1,8 +1,8 @@
 using System;
 
-using NLog;
-using NLog.Targets;
-using NLog.Targets.Wrappers;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.Targets.Wrappers;
 using System.Diagnostics;
 
 class Example

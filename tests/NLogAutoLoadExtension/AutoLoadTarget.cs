@@ -32,10 +32,10 @@
 // 
 
 using System;
-using NLog;
-using NLog.Targets;
+using pyRevitLabs.NLog;
+using pyRevitLabs.NLog.Targets;
 
-namespace NLogAutloadExtension
+namespace pyRevitLabs.NLogAutloadExtension
 {
     [Target("AutoLoadTarget")]
     public class AutoLoadTarget : Target

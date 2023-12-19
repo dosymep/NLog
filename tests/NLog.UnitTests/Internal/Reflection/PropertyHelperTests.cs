@@ -32,10 +32,10 @@
 // 
 
 using System;
-using NLog.Config;
+using pyRevitLabs.NLog.Config;
 using Xunit;
 
-namespace NLog.UnitTests.Internal.Reflection
+namespace pyRevitLabs.NLog.UnitTests.Internal.Reflection
 {
     public class PropertyHelperTests : NLogTestBase
     {

@@ -35,7 +35,7 @@
 #define SupportsMutex
 #endif
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System;
     using System.Collections.Generic;
@@ -45,13 +45,13 @@ namespace NLog.Targets
     using System.IO.Compression;
     using System.Text;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Internal.FileAppenders;
-    using NLog.Layouts;
-    using NLog.Targets.FileArchiveModes;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.FileAppenders;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets.FileArchiveModes;
+    using pyRevitLabs.NLog.Time;
 
     /// <summary>
     /// Writes log messages to one or more files.

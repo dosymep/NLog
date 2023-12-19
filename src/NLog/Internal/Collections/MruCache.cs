@@ -33,7 +33,7 @@
 
 using System.Collections.Generic;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Most-Recently-Used-Cache, that discards less frequently used items on overflow

@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     using System;
     using System.Linq;
     using System.Collections.Generic;
-    using NLog.MessageTemplates;
+    using pyRevitLabs.NLog.MessageTemplates;
     using Xunit;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     public class PropertiesDictionaryTests : NLogTestBase
     {

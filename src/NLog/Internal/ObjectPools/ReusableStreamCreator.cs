@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Controls a single allocated MemoryStream for reuse (only one active user)

@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Targets.Wrappers
+namespace pyRevitLabs.NLog.Targets.Wrappers
 {
     using System;
-    using NLog.Common;
-    using NLog.Conditions;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Causes a flush on a wrapped target if LogEvent satisfies the <see cref="Condition"/>.

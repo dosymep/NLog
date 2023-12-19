@@ -33,7 +33,7 @@
 
 using System.Text;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Controls a single allocated StringBuilder for reuse (only one active user)

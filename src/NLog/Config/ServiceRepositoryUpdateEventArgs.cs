@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Registered service type in the service repository

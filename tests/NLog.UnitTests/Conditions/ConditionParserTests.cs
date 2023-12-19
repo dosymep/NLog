@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Conditions
+namespace pyRevitLabs.NLog.UnitTests.Conditions
 {
     using System;
-    using NLog.Internal;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class ConditionParserTests : NLogTestBase

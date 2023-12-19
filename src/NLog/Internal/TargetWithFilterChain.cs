@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections.Generic;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Filters;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Represents target with a chain of filters which determine

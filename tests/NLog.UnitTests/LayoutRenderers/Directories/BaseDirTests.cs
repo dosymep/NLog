@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System;
     using System.IO;
     using System.Linq;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class BaseDirTests : NLogTestBase

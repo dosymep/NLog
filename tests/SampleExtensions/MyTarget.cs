@@ -33,8 +33,8 @@
 
 namespace MyExtensionNamespace
 {
-    using NLog;
-    using NLog.Targets;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Targets;
 
     [Target("MyTarget")]
     public class MyTarget : Target

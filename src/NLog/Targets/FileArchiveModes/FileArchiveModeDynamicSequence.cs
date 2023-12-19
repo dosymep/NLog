@@ -36,9 +36,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     /// <summary>
     /// Archives the log-files using the provided base-archive-filename. If the base-archive-filename causes

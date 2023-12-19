@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using NLog.Common;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Scans (breadth-first) the object graph following all the edges whose are 

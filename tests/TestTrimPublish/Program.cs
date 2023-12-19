@@ -1,4 +1,4 @@
-﻿using NLog;
+﻿using pyRevitLabs.NLog;
 
 var consoleWriter = new StringWriter();
 var orgConsole = System.Console.Out;
@@ -6,9 +6,9 @@ try
 {
     System.Console.SetOut(consoleWriter);
 
-    NLog.LogManager.ThrowExceptions = true; // unit-test-mode
+    pyRevitLabs.NLog.LogManager.ThrowExceptions = true; // unit-test-mode
 
-    var logger = NLog.LogManager.Setup().LoadConfigurationFromXml(@"
+    var logger = pyRevitLabs.NLog.LogManager.Setup().LoadConfigurationFromXml(@"
     <nlog>
       <targets>
         <target type='console' name='console' layout='${threadid}|${message}' />
@@ -21,7 +21,7 @@ try
 
     logger.Debug("Almost ready");
     logger.Info("Success");
-    NLog.LogManager.Shutdown();
+    pyRevitLabs.NLog.LogManager.Shutdown();
     logger.Debug("Almost done");
 }
 catch (Exception ex)

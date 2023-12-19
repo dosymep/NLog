@@ -31,16 +31,16 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Text;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Render environmental information related to logging events.

@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Filters
+namespace pyRevitLabs.NLog.Filters
 {
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// An abstract filter class. Provides a way to eliminate log messages

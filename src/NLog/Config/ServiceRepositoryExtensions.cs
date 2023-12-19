@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using JetBrains.Annotations;
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
 
     internal static class ServiceRepositoryExtensions
     {

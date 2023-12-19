@@ -35,7 +35,7 @@ using System;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     /// <summary>
     /// Obsolete since dynamic assembly loading is not compatible with publish as trimmed application.

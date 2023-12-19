@@ -32,7 +32,7 @@
 // 
 
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     using Xunit;
 

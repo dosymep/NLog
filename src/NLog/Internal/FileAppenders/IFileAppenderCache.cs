@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     internal interface IFileAppenderCache : IDisposable
     {

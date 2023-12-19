@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
-    using NLog;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class PaddingTests : NLogTestBase

@@ -35,9 +35,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     /// <summary>
     /// Archives the log-files using a sequence style numbering. The most recent archive has the highest number.

@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Common
+namespace pyRevitLabs.NLog.Common
 {
     using JetBrains.Annotations;
     using System;
@@ -39,8 +39,8 @@ namespace NLog.Common
     using System.Globalization;
     using System.IO;
     using System.Reflection;
-    using NLog.Internal;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Time;
 
     /// <summary>
     /// NLog internal logger.

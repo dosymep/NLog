@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     using System;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
     using Xunit;
 
     public class ConversionHelpersTests : NLogTestBase

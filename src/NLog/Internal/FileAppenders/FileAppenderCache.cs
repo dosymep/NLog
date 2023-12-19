@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     using System;
     using System.IO;
     using System.Threading;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Maintains a collection of file appenders usually associated with file targets.

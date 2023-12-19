@@ -33,15 +33,15 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.Diagnostics;
     using System.Globalization;
     using System.Reflection;
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// The information about the running process.

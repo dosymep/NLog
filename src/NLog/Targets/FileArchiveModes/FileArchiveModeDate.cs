@@ -36,7 +36,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     /// <summary>
     /// Archives the log-files using a date style numbering. Archives will be stamped with the

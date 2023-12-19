@@ -33,12 +33,12 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Watches multiple files at the same time and raises an event whenever 

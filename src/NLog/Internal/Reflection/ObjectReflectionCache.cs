@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections;
@@ -42,8 +42,8 @@ namespace NLog.Internal
 #endif
     using System.Linq;
     using System.Reflection;
-    using NLog.Common;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// Converts object into a List of property-names and -values using reflection

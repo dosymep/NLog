@@ -33,12 +33,12 @@
 
 #if !NET35 && !NET40
 
-namespace NLog.Fluent
+namespace pyRevitLabs.NLog.Fluent
 {
     using System;
     using System.IO;
     using System.Runtime.CompilerServices;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// A global logging class using caller info to find the logger.

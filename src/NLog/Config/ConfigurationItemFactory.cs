@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
@@ -39,13 +39,13 @@ namespace NLog.Config
     using System.Diagnostics.CodeAnalysis;
     using System.Linq;
     using System.Reflection;
-    using NLog.Common;
-    using NLog.Filters;
-    using NLog.Internal;
-    using NLog.LayoutRenderers;
-    using NLog.Layouts;
-    using NLog.Targets;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Time;
 
     /// <summary>
     /// Provides registration information for named items (targets, layouts, layout renderers, etc.)

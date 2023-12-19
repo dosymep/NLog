@@ -33,11 +33,11 @@
 
 using System;
 using System.Globalization;
-using NLog.Config;
-using NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Targets;
 using Xunit;
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
 
     /// <summary>

@@ -31,15 +31,15 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers.Wrappers
 {
     using System;
     using System.Collections.Generic;
-    using NLog;
-    using NLog.Config;
-    using NLog.LayoutRenderers.Wrappers;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.LayoutRenderers.Wrappers;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class ReplaceTests : NLogTestBase

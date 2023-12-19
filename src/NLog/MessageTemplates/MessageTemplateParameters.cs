@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     using System;
     using System.Collections;
     using System.Collections.Generic;
-    using NLog.Common;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Parameters extracted from parsing <see cref="LogEventInfo.Message"/> as MessageTemplate

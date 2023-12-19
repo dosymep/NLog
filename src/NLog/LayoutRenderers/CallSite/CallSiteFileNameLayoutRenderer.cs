@@ -33,10 +33,10 @@
 
 using System.IO;
 using System.Text;
-using NLog.Config;
-using NLog.Internal;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     /// <summary>
     /// The call site source file name. Full callsite <see cref="CallSiteLayoutRenderer"/>

@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
     using System.Reflection;
     using JetBrains.Annotations;
-    using NLog.Internal;
-    using NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Common;
 
     /// <summary>
     /// Repository of interfaces used by NLog to allow override for dependency injection

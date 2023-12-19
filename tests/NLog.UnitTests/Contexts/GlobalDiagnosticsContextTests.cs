@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Contexts
+namespace pyRevitLabs.NLog.UnitTests.Contexts
 {
     using Xunit;
 

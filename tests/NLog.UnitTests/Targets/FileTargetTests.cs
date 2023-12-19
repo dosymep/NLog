@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
     using System;
     using System.Collections.Generic;
@@ -41,11 +41,11 @@ namespace NLog.UnitTests.Targets
     using System.Text;
     using System.Threading;
     using System.Threading.Tasks;
-    using NLog.Config;
-    using NLog.Layouts;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
-    using NLog.Time;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Time;
     using NSubstitute;
     using Xunit;
 

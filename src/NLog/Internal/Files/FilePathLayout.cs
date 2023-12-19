@@ -34,11 +34,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using NLog.Common;
-using NLog.Layouts;
-using NLog.Targets;
+using pyRevitLabs.NLog.Common;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.Targets;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// A layout that represents a filePath. 

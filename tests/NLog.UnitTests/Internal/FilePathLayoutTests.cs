@@ -31,14 +31,14 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
-    using NLog.Layouts;
-    using NLog.Internal;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
-    public class FilePathLayoutTests // Not needed as not using NLog-Core -> : NLogTestBase
+    public class FilePathLayoutTests // Not needed as not using pyRevitLabs.NLog-Core -> : NLogTestBase
     {
         [Theory]
         [InlineData(@"", FilePathKind.Unknown)]

@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Time
+namespace pyRevitLabs.NLog.Time
 {
     using System;
 

@@ -32,11 +32,11 @@
 // 
 
 
-namespace NLog.Layouts
+namespace pyRevitLabs.NLog.Layouts
 {
     using System.Collections.Generic;
     using System.Text;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
 
     /// <summary>
     /// A layout containing one or more nested layouts.

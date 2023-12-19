@@ -32,10 +32,10 @@
 // 
 
 using System.Threading;
-using NLog.Layouts;
-using NLog.Targets;
+using pyRevitLabs.NLog.Layouts;
+using pyRevitLabs.NLog.Targets;
 
-namespace NLog.UnitTests.Common
+namespace pyRevitLabs.NLog.UnitTests.Common
 {
     /// <summary>
     /// Target for unit testing the last written LogEvent with a event

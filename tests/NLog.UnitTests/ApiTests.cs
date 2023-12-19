@@ -33,13 +33,13 @@
 
 using System.Linq;
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Text;
     using System.Collections.Generic;
     using System.Reflection;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     /// <summary>

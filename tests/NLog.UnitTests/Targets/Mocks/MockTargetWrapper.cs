@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets.Mocks
+namespace pyRevitLabs.NLog.UnitTests.Targets.Mocks
 {
-    using NLog.Common;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
 
     [Target("MockWrapper", IsWrapper = true)]
     public class MockTargetWrapper : WrapperTargetBase

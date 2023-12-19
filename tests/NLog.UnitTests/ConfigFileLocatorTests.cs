@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests
+namespace pyRevitLabs.NLog.UnitTests
 {
     using System;
     using System.Collections;
@@ -41,8 +41,8 @@ namespace NLog.UnitTests
     using System.Linq;
     using System.Text;
     using Microsoft.CSharp;
-    using NLog.Config;
-    using NLog.UnitTests.Mocks;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.UnitTests.Mocks;
     using Xunit;
 
     public sealed class ConfigFileLocatorTests : NLogTestBase, IDisposable
@@ -540,7 +540,7 @@ namespace NLog.UnitTests
             string sourceCode = @"
 using System;
 using System.Reflection;
-using NLog;
+using pyRevitLabs.NLog;
 
 class C1
 {

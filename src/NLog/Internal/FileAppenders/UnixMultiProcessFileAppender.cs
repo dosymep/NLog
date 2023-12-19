@@ -33,7 +33,7 @@
 
 #if MONO
 
-namespace NLog.Internal.FileAppenders
+namespace pyRevitLabs.NLog.Internal.FileAppenders
 {
     using System;
     using System.Collections;
@@ -44,10 +44,10 @@ namespace NLog.Internal.FileAppenders
     using System.Threading;
     using System.Xml;
 
-    using NLog;
-    using NLog.Common;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     using Mono.Unix;
     using Mono.Unix.Native;

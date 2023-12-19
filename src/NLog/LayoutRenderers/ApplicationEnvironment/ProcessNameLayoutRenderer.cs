@@ -33,11 +33,11 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal.Fakeables;
 
     /// <summary>
     /// The name of the current process.

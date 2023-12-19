@@ -33,9 +33,9 @@
 
 using System;
 using System.Text;
-using NLog.MessageTemplates;
+using pyRevitLabs.NLog.MessageTemplates;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// Render a message template property to a string

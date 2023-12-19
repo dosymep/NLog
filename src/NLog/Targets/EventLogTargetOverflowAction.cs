@@ -34,7 +34,7 @@
 
 #if !NETSTANDARD || WindowsEventLogPackage
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     /// <summary>
     /// Action that should be taken if the message is greater than

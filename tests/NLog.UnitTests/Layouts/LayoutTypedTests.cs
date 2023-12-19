@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Layouts
+namespace pyRevitLabs.NLog.UnitTests.Layouts
 {
     using System;
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Layouts;
     using Xunit;
 
     public class LayoutTypedTests : NLogTestBase

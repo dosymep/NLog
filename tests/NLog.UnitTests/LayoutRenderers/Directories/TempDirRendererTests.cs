@@ -33,9 +33,9 @@
 
 using System.IO;
 using Xunit;
-using NLog.Layouts;
+using pyRevitLabs.NLog.Layouts;
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     public class TempDirRendererTests : NLogTestBase
     {

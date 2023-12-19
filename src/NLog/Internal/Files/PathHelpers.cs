@@ -33,7 +33,7 @@
 
 using System.IO;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     internal static class PathHelpers
     {

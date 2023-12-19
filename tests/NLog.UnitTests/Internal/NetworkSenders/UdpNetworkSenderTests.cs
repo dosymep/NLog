@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.UnitTests.Internal.NetworkSenders
 {
     using System.Net.Sockets;
 
-    using NLog.Internal.NetworkSenders;
+    using pyRevitLabs.NLog.Internal.NetworkSenders;
 
     using Xunit;
 

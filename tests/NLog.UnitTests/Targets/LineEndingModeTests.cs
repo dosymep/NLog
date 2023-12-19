@@ -31,9 +31,9 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets
+namespace pyRevitLabs.NLog.UnitTests.Targets
 {
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Targets;
     using System;
     using Xunit;
 

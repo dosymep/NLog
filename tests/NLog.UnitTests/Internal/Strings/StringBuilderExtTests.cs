@@ -34,10 +34,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class StringBuilderExtTests : NLogTestBase
     {

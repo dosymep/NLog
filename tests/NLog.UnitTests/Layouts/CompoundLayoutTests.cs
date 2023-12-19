@@ -31,12 +31,12 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Config;
-using NLog.Targets;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Targets;
 
-namespace NLog.UnitTests.Layouts
+namespace pyRevitLabs.NLog.UnitTests.Layouts
 {
-    using NLog.Layouts;
+    using pyRevitLabs.NLog.Layouts;
     using System;
     using Xunit;
 

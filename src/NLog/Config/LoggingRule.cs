@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
@@ -40,8 +40,8 @@ namespace NLog.Config
     using System.Globalization;
     using System.Linq;
     using System.Text;
-    using NLog.Filters;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Represents a logging rule. An equivalent of &lt;logger /&gt; configuration element.

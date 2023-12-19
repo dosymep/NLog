@@ -33,14 +33,14 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.LayoutRenderers
+namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
     using System.IO;
     using System.Text;
-    using NLog.Config;
-    using NLog.Internal;
-    using NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.Fakeables;
 
     /// <summary>
     /// The executable directory from the <see cref="System.Diagnostics.Process.MainModule"/> FileName,

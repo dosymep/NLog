@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 using Xunit;
 
-namespace NLog.UnitTests.Internal
+namespace pyRevitLabs.NLog.UnitTests.Internal
 {
     public class AsyncLogEventInfoTests : NLogTestBase
     {

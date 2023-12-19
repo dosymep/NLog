@@ -37,10 +37,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using JetBrains.Annotations;
-using NLog.Config;
-using NLog.Internal;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog.MessageTemplates
+namespace pyRevitLabs.NLog.MessageTemplates
 {
     /// <summary>
     /// Convert, Render or serialize a value, with optionally backwards-compatible with <see cref="string.Format(System.IFormatProvider,string,object[])"/>

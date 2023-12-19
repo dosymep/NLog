@@ -31,17 +31,17 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Config
+namespace pyRevitLabs.NLog.Config
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Security;
     using System.Xml;
-    using NLog.Common;
-    using NLog.Internal;
-    using NLog.Internal.Fakeables;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Internal;
+    using pyRevitLabs.NLog.Internal.Fakeables;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Enables loading of NLog configuration from a file

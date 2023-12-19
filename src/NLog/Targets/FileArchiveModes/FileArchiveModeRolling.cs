@@ -35,7 +35,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     /// <summary>
     /// Archives the log-files using a rolling style numbering (the most recent is always #0 then

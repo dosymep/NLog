@@ -31,19 +31,19 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Layouts
+namespace pyRevitLabs.NLog.UnitTests.Layouts
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.Linq;
     using System.Text;
-    using NLog.Config;
-    using NLog.Filters;
-    using NLog.LayoutRenderers;
-    using NLog.LayoutRenderers.Wrappers;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Filters;
+    using pyRevitLabs.NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.LayoutRenderers.Wrappers;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
     using Xunit;
 
     public class SimpleLayoutParserTests : NLogTestBase

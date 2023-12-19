@@ -34,14 +34,14 @@
 using System;
 using System.Linq;
 using System.Security.Authentication;
-using NLog.Config;
-using NLog.Internal.NetworkSenders;
-using NLog.Targets;
-using NLog.UnitTests.Mocks;
+using pyRevitLabs.NLog.Config;
+using pyRevitLabs.NLog.Internal.NetworkSenders;
+using pyRevitLabs.NLog.Targets;
+using pyRevitLabs.NLog.UnitTests.Mocks;
 using NSubstitute;
 using Xunit;
 
-namespace NLog.UnitTests.Internal.NetworkSenders
+namespace pyRevitLabs.NLog.UnitTests.Internal.NetworkSenders
 {
     public class HttpNetworkSenderTests : NLogTestBase
     {

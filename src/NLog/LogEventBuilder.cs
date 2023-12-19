@@ -36,9 +36,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
-using NLog.Internal;
+using pyRevitLabs.NLog.Internal;
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     /// <summary>
     /// A fluent builder for logging events to NLog.

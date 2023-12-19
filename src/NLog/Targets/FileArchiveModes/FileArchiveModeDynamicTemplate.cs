@@ -35,7 +35,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace NLog.Targets.FileArchiveModes
+namespace pyRevitLabs.NLog.Targets.FileArchiveModes
 {
     /// <summary>
     /// Dynamically converts a non-template archiveFilePath into a correct archiveFilePattern.

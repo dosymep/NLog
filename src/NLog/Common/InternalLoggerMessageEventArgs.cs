@@ -34,7 +34,7 @@
 using System;
 using JetBrains.Annotations;
 
-namespace NLog.Common
+namespace pyRevitLabs.NLog.Common
 {
     /// <summary>
     /// A message has been written to the internal logger

@@ -33,12 +33,12 @@
 
 #if !NETSTANDARD1_3
 
-namespace NLog.Targets
+namespace pyRevitLabs.NLog.Targets
 {
     using System.Text.RegularExpressions;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Highlighting rule for Win32 colorful console.

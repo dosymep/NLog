@@ -33,9 +33,9 @@
 
 using System;
 using System.Collections.Generic;
-using NLog.Common;
+using pyRevitLabs.NLog.Common;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Controls a single allocated AsyncLogEventInfo-List for reuse (only one active user)

@@ -33,7 +33,7 @@
 
 using System;
 using System.Text;
-using NLog;
+using pyRevitLabs.NLog;
 
 namespace InheritFromLogger
 {

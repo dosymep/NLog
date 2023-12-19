@@ -31,13 +31,13 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Targets.Wrappers
+namespace pyRevitLabs.NLog.UnitTests.Targets.Wrappers
 {
     using System;
     using System.Threading;
-    using NLog.Common;
-    using NLog.Targets;
-    using NLog.Targets.Wrappers;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Targets;
+    using pyRevitLabs.NLog.Targets.Wrappers;
     using Xunit;
 
     public class LimitingTargetWrapperTests : NLogTestBase

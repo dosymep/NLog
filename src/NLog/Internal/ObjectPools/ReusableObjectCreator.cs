@@ -33,7 +33,7 @@
 
 using System;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Controls a single allocated object for reuse (only one active user)

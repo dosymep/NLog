@@ -32,11 +32,11 @@
 // 
 
 
-namespace NLog
+namespace pyRevitLabs.NLog
 {
     using System;
     using System.Linq;
-    using NLog.Internal;
+    using pyRevitLabs.NLog.Internal;
 
     /// <summary>
     /// Obsolete and replaced by <see cref="ScopeContext"/> with NLog v5.

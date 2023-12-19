@@ -37,7 +37,7 @@ using System.Linq;
 using System.Text;
 using JetBrains.Annotations;
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     /// <summary>
     /// Helpers for <see cref="string"/>.

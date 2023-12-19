@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal
+namespace pyRevitLabs.NLog.Internal
 {
     using System;
     using System.Collections;
@@ -41,11 +41,11 @@ namespace NLog.Internal
     using System.Globalization;
     using System.Reflection;
     using System.Text;
-    using NLog.Common;
-    using NLog.Conditions;
-    using NLog.Config;
-    using NLog.Layouts;
-    using NLog.Targets;
+    using pyRevitLabs.NLog.Common;
+    using pyRevitLabs.NLog.Conditions;
+    using pyRevitLabs.NLog.Config;
+    using pyRevitLabs.NLog.Layouts;
+    using pyRevitLabs.NLog.Targets;
 
     /// <summary>
     /// Reflection helpers for accessing properties.

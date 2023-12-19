@@ -31,7 +31,7 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.Internal.Xamarin
+namespace pyRevitLabs.NLog.Internal.Xamarin
 {
     using System;
 

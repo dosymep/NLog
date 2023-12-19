@@ -31,11 +31,11 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.Config
+namespace pyRevitLabs.NLog.UnitTests.Config
 {
     using System;
     using System.IO;
-    using NLog.Config;
+    using pyRevitLabs.NLog.Config;
     using Xunit;
 
     public class IncludeTests : NLogTestBase

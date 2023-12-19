@@ -31,10 +31,10 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace NLog.UnitTests.LayoutRenderers
+namespace pyRevitLabs.NLog.UnitTests.LayoutRenderers
 {
     using System.Globalization;
-    using NLog.LayoutRenderers;
+    using pyRevitLabs.NLog.LayoutRenderers;
     using Xunit;
 
     public class TimeTests : NLogTestBase
