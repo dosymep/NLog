@@ -201,20 +201,11 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
 
         private FileStream TryCreateDirectoryFileStream(bool allowFileSharedWriting, int overrideBufferSize)
         {
-            bool fileAlreadyExisted = RefreshFileCreationTime();
-            bool windowsFileSystemTunnelingActive = !fileAlreadyExisted && (CreateFileParameters.IsArchivingEnabled || PlatformDetector.IsWin32);
-            bool fixWindowsFileSystemTunneling = false;
-
             try
             {
-                if (!allowFileSharedWriting && windowsFileSystemTunnelingActive)
-                {
-                    RepairFileCreationTime(allowFileSharedWriting);
-                }
+                RefreshFileCreationTime();
 
-                var fileStream = TryCreateFileStream(allowFileSharedWriting, overrideBufferSize);
-                fixWindowsFileSystemTunneling = windowsFileSystemTunnelingActive && allowFileSharedWriting;
-                return fileStream;
+                return TryCreateFileStream(allowFileSharedWriting, overrideBufferSize);
             }
             catch (DirectoryNotFoundException)
             {
@@ -232,20 +223,13 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
                 {
                     Directory.CreateDirectory(directoryName);
                 }
-                catch (DirectoryNotFoundException)
+                catch (DirectoryNotFoundException ex)
                 {
                     //if creating a directory failed, don't retry for this message (e.g the FileOpenRetryCount below)
-                    throw new NLogRuntimeException($"Could not create directory {directoryName}");
+                    throw new NLogRuntimeException($"Could not create directory {directoryName}", ex);
                 }
 
                 return TryCreateFileStream(allowFileSharedWriting, overrideBufferSize);
-            }
-            finally
-            {
-                if (fixWindowsFileSystemTunneling)
-                {
-                    RepairFileCreationTime(true);
-                }
             }
         }
 
@@ -259,7 +243,7 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
                 fileShare |= Win32FileNativeMethods.FILE_SHARE_WRITE;
             }
 
-            if (CreateFileParameters.EnableFileDelete && PlatformDetector.CurrentOS != RuntimeOS.Windows)
+            if (CreateFileParameters.EnableFileDelete && PlatformDetector.CurrentOS != RuntimeOS.Windows9x)
             {
                 fileShare |= Win32FileNativeMethods.FILE_SHARE_DELETE;
             }
@@ -331,7 +315,7 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
                 bufferSize);
         }
 
-        private bool RefreshFileCreationTime()
+        private void RefreshFileCreationTime()
         {
             CreationTimeUtc = DateTime.UtcNow;
 
@@ -341,32 +325,17 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
                 if (fileInfo.Exists)
                 {
                     CreationTimeUtc = fileInfo.LookupValidFileCreationTimeUtc();
-                    return true;
                 }
-            }
-            catch (NotSupportedException ex)
-            {
-                InternalLogger.Debug(ex, "{0}: Failed to retrieve FileInfo.CreationTimeUtc for FileName: {1}", CreateFileParameters, FileName);
-            }
-            catch (IOException ex)
-            {
-                InternalLogger.Debug(ex, "{0}: Failed to retrieve FileInfo.CreationTimeUtc for FileName: {1}", CreateFileParameters, FileName);
-            }
-
-            return false;
-        }
-
-        private void RepairFileCreationTime(bool allowFileSharedWriting)
-        {
-            try
-            {
-                if (!allowFileSharedWriting)
+                else
                 {
-                    File.Create(FileName).Dispose();
-                }
+                    if (CreateFileParameters.IsArchivingEnabled || PlatformDetector.IsWin32)
+                    {
+                        File.Create(FileName).Dispose();
 
-                // Set the file's creation time to avoid being thwarted by Windows FileSystem Tunneling capabilities (https://support.microsoft.com/en-us/kb/172190).
-                File.SetCreationTimeUtc(FileName, CreationTimeUtc);
+                        // Set the file's creation time to avoid being thwarted by Windows FileSystem Tunneling capabilities (https://support.microsoft.com/en-us/kb/172190).
+                        File.SetCreationTimeUtc(FileName, CreationTimeUtc);
+                    }
+                }
             }
             catch (DirectoryNotFoundException)
             {
@@ -374,7 +343,7 @@ namespace pyRevitLabs.NLog.Internal.FileAppenders
             }
             catch (Exception ex)
             {
-                InternalLogger.Debug(ex, "{0}: Failed to update File.SetCreationTimeUtc for FileName: {1}", CreateFileParameters, FileName);
+                InternalLogger.Debug(ex, "{0}: Failed to refresh CreationTimeUtc for FileName: {1}", CreateFileParameters, FileName);
             }
         }
 

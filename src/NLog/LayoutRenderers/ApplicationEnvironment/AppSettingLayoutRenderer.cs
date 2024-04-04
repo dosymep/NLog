@@ -36,6 +36,7 @@
 namespace pyRevitLabs.NLog.LayoutRenderers
 {
     using System;
+    using System.ComponentModel;
     using System.Text;
     using pyRevitLabs.NLog.Config;
     using pyRevitLabs.NLog.Internal;
@@ -70,6 +71,7 @@ namespace pyRevitLabs.NLog.LayoutRenderers
         /// The AppSetting item-name
         ///</summary>
         [Obsolete("Allows easier conversion from NLog.Extended. Instead use Item-property. Marked obsolete in NLog 4.6")]
+        [EditorBrowsable(EditorBrowsableState.Never)]
         public string Name { get => Item; set => Item = value; }
 
         ///<summary>
